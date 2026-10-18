@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  code, pre, .font-mono {
+    font-family: "Cascadia Code", "Cascadia Mono", Consolas, "Courier New", monospace;
+  }
+}
+
+/* Windows 11 Fluent & Classic Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.theme-dark ::-webkit-scrollbar-track,
+body.theme-dark ::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+.theme-dark ::-webkit-scrollbar-thumb,
+body.theme-dark ::-webkit-scrollbar-thumb {
+  background: #3c3c3c;
+  border-radius: 5px;
+  border: 2px solid #1e1e1e;
+}
+.theme-dark ::-webkit-scrollbar-thumb:hover,
+body.theme-dark ::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+.theme-light ::-webkit-scrollbar-track,
+body.theme-light ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.theme-light ::-webkit-scrollbar-thumb,
+body.theme-light ::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+  border: 2px solid #f1f1f1;
+}
+.theme-light ::-webkit-scrollbar-thumb:hover,
+body.theme-light ::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "WinHook Sentinel",
+  "description": "Windows API Hook & Process Auditor - inspect hooked APIs, review software installation dates, and freeze or terminate processes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
